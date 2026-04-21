@@ -1,0 +1,23 @@
+# PyTorch for CUDA 12.4
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# High-Performance Async (Linux only)
+uvloop>=0.21.0; sys_platform != 'win32'
+aiohttp>=3.10.0
+
+# AI and Vision
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+
+# Data and Cloud
+numpy<2.0.0
+pandas
+requests
+azure-storage-blob
+azure-core
+
+# Monitoring
+watchdog>=4.0.0
